@@ -22,6 +22,10 @@
 .fontsize25{
 	font-size: 25px;
 }
+p{
+	word-break:break-all;
+	overflow: hidden;
+}
 /*皮肤*/
 .width1140{
 	width: 1140px;
@@ -85,7 +89,7 @@
 	background-color: #f8b551;
 }
 .m-rtbar{
-	width: 61.5%;
+	width: 62%;
 	background-color: #00829c;
 }
 .u-tle {
@@ -145,6 +149,7 @@
 	min-width: 1140px;
 	height: 648px;
 	background: url(../imgs/slide-1.png) center top no-repeat;
+	background-size: cover;
 }
 .m-head-3 .m-btm{
 	background-color: #f8b551;
@@ -196,13 +201,13 @@
 	width: 303px;
 	line-height: 23px;
 	color: #fff;
-	word-break:break-all;
-	overflow: hidden;
 }
 .g-body{
 	margin: 100px auto 0;	
 }
-
+.g-body .m-nav{
+	margin: 0 auto;
+}
 .g-body .m-nav .m-nav-img{
 	box-shadow: 0 0 1px 1px #e5e5e5;
 	border: 1px solid #e5e5e5;
@@ -223,10 +228,10 @@
 	margin: 10px 0;
 }
 .g-body .m-nav .m-nav-cxt p{
-	word-break:break-all;
+	// word-break:break-all;
 	line-height: 27px;
 	height: 160px;
-	overflow: hidden;
+	// overflow: hidden;
 }
 .g-body .m-nav .m-btm{
 	position: absolute;
@@ -240,4 +245,48 @@
 }
 .g-body .m-nav .m-list li+li{
 	margin-left: 20px;
+}
+.g-body .m-about{
+	margin-top: 70px;
+	height: 560px;
+}
+.m-about .m-side{
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+	box-sizing: border-box;
+}
+.m-about .m-side-lt{
+	float: left;
+}
+.m-about .m-side-rt{
+	float: right;
+	background-color: red;
+}
+.m-sidec{
+	box-sizing: border-box;
+}
+.m-about .m-sidec-1{
+	height: 60%;
+	background-color: #00829c;
+}
+.m-about .m-sidec-2{
+	height: 40%;
+	background-color: #fff;
+}
+.m-sidec-1 .m-container{
+	width: 570px;
+}
+.m-sidec-1 .m-container h1{
+	color: #fff;
+	font-weight: lighter;
+	line-height: 80px;
+}
+.m-sidec-1 .m-container p{
+	color: #fff;
+	line-height: 20px;
+}
+.m-sidec-1 .m-container a{
+	display: inline-block;
+	float: left;
 }
