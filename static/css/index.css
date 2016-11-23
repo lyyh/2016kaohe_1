@@ -1,0 +1,107 @@
+/*基本样式*/
+.clearfix:after{
+	content: ".";
+	clear: both;
+	visibility: hidden;
+	display: block;
+	height: 0;
+}
+/*功能*/
+.f-fl{
+	float: left;
+}
+.f-fr{
+	float: right;
+}
+/*皮肤*/
+.fontsize_18{
+	font-size: 18px;
+}
+.width_1140{
+	width: 1140px;
+}
+/*状态*/
+.z-hr_red:hover{
+	color: #FC342A;
+}
+
+.g-head{
+	min-width: 1140px;
+	position: relative;
+}
+.g-head-1{
+	height: 73px;
+	width: 1140px;
+	margin: 0 auto;
+}
+.g-head-1 .m-sch{
+	line-height: 73px;
+	height: 100%;
+}
+.g-head-1 .m-ipt{
+	display: inline-block;
+	position: relative;
+}
+.g-head-1 .m-ipt .u-btn-sch{
+	position: absolute;
+	right: 4px;
+	top: 6px;
+}
+.g-head-1 .u-ipt{
+	width: 123px;
+	height: 28px;
+	outline: none;
+	border: 1px solid #C5C8C8;
+	border-radius: 5px;
+	padding-right: 30px;
+}
+.g-head-1 .m-sch-mod{
+	display: inline-block;
+	margin-left: 10px;
+}
+.m-lang img{
+	vertical-align: middle;
+}
+.g-head-2{
+	position: relative;
+	height: 50px;
+	min-width: 1140px;
+}
+.m-bar{
+	height: 100%;
+	position: absolute;
+	top:0;
+	z-index: -1;
+}
+.m-ltbar{
+	width: 24%;
+	left: 0;
+	background-color: #f8b551;
+}
+.m-rtbar{
+	width: 63%;
+	right: 0;
+	background-color: #00829c;
+}
+.u-tle {
+	position: absolute;
+	border-color: transparent;
+	height: 0;
+	width: 0;
+	border-style: solid;
+	border-width: 25px 9px;
+} 
+.u-tle-1{
+	right: -18px;
+	border-color: #f8b551 transparent transparent #f8b551;
+}
+.u-tle-2{
+	left: -18px;
+	border-color: transparent #00829c #00829c transparent;
+}
+.g-head-2 .m-container{
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+}
+
