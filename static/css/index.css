@@ -260,7 +260,6 @@ p{
 }
 .m-about .m-side-rt{
 	float: right;
-	background-color: red;
 }
 .m-sidec{
 	box-sizing: border-box;
@@ -274,7 +273,8 @@ p{
 	background-color: #fff;
 }
 .m-sidec-1 .m-container{
-	width: 570px;
+	width: 550px;
+	padding-right: 20px;
 }
 .m-sidec-1 .m-container h1{
 	color: #fff;
@@ -294,6 +294,7 @@ p{
 	line-height: 30px;
 	text-align: center;
 	width: 100px;
+	color: #fff;
 }
 .m-sidec-2 .m-container{
 	position: relative;
@@ -321,4 +322,71 @@ p{
 	width: 400px;
 	height: 155px;
 	overflow: hidden;
+}
+.m-tip .u-arrow{
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: -30px;
+	left: 6px;
+	border-width: 15px 10px;
+	border-style: solid;
+	border-color: #ffbb41 transparent transparent transparent;
+}
+.m-about .m-side-rt{
+	background: url(../imgs/about.png) center top no-repeat;
+	background-size: cover;
+}
+.m-case{
+	background-color: #f4f4f4;
+	height: 1155px;
+}
+.m-case-box{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.m-case-box .u-title{
+	margin-top: 46px;
+	text-align: center;
+	line-height: 50px;
+	color: #00829c;
+}
+.m-case-box .m-list li{
+	float: left;
+	width: 30%;
+	box-sizing: border-box;
+	margin: 0px 19px 30px;
+}
+.m-case-box .m-list a{
+	display: block;
+	height: 390px;
+	text-align: center;
+	overflow: hidden;
+}
+.m-case-box .m-list a:hover{
+	background-color: #ddd;
+}
+.m-case-box .m-list h1{
+	font-weight: lighter;
+	color: #3e9fb3;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.m-case-box .m-list .u-cxt{
+	margin-top: 20px;
+	padding: 0 25px;
+}
+.m-case-box .u-btn{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	display: block;
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	background-color: #00829c;
+}
+.m-case .u-btm{
+	
 }
