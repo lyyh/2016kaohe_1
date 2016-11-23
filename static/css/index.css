@@ -7,27 +7,29 @@
 	height: 0;
 }
 /*功能*/
-.f-fl{
+.f_l{
 	float: left;
 }
-.f-fr{
+.f_r{
 	float: right;
 }
-.f-fs_18{
+.fontsize18{
 	font-size: 18px;
 }
 /*皮肤*/
-.s-fc_gray{
-	color: #e5e5e5;
-}
-.width_1140{
+.width1140{
 	width: 1140px;
 }
 /*状态*/
-.z-hr_red:hover{
+.hover_red:hover{
 	color: #FC342A;
 }
-
+.hover_rtbar li:hover{
+	background-color: #f8b551;
+}
+// .hover_rtbar li:first-child:hover{
+// 	background-color: #ddd;
+// }
 .g-head{
 	min-width: 1140px;
 	position: relative;
@@ -73,7 +75,7 @@
 .m-bar{
 	height: 100%;
 	position: relative;
-	z-index: -1;
+	z-index: 100;
 }
 .m-ltbar{
 	width: 24%;
@@ -109,9 +111,24 @@
 }
 .g-head-2 .m-logo{
 	overflow: hidden;
-	position: relative;
 	text-align: center;
 	z-index:10;
-	bottom: 57px;
+	height: 100%;
 }
-
+.g-head-2 .m-logo-box{
+	display: block;
+	position: absolute;
+	bottom: 10px;
+	left: 25.56%;
+}
+.g-head-2 .m-list{
+	position: absolute;
+}
+.g-head-2 .m-list li{
+	float: left;
+}
+.g-head-2 .m-list a{
+	display: block;
+	line-height: 50px;
+	padding: 0px 10px;
+}
