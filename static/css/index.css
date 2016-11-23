@@ -19,6 +19,9 @@
 .fontsize16{
 	font-size: 16px;
 }
+.fontsize25{
+	font-size: 25px;
+}
 /*皮肤*/
 .width1140{
 	width: 1140px;
@@ -198,4 +201,42 @@
 }
 .g-body{
 	margin: 100px auto 0;	
+}
+
+.g-body .m-nav .m-nav-img{
+	border: 1px solid #e5e5e5;
+	display: inline-block;
+	padding: 20px;
+	margin-left: 34px;
+	border-radius: 5px;
+}
+.g-body .m-nav .m-nav-cxt{
+	width: 620px;
+	height: 304px;
+	margin-right: 34px;
+	position: relative;
+}
+.g-body .m-nav .m-nav-cxt h1{
+	color: #00829c;
+	text-align: left;
+	margin: 10px 0;
+}
+.g-body .m-nav .m-nav-cxt p{
+	word-break:break-all;
+	line-height: 27px;
+	height: 160px;
+	overflow: hidden;
+}
+.g-body .m-nav .m-btm{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 60px;
+}
+.g-body .m-nav .m-list li{
+	float: left;
+}
+.g-body .m-nav .m-list li+li{
+	margin-left: 20px;
 }
