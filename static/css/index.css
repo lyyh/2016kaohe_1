@@ -158,6 +158,12 @@
 .m-tab-box .m-tab-1{
 	margin-left: 50px;
 }
+.m-head-3 .m-tab-box .m-tab-2{
+	background-color: #005f6b;
+}
+.m-head-3 .m-tab-box .m-tab-3{
+	background-color: #024952;
+}
 .m-head-3 .m-tab{
 	background-color: #017685;
 	position: relative;
@@ -176,7 +182,7 @@
 }
 .m-head-3 .m-tab-box .u-tab-tle-1{
 	border-width: 65px 17px;
-	border-color: #017685 transparent transparent #017685;
+	border-color: #024952 transparent transparent #024952;
 	left: inherit;
 	right: -34px;
 }
@@ -189,4 +195,7 @@
 	color: #fff;
 	word-break:break-all;
 	overflow: hidden;
+}
+.g-body{
+	margin: 100px auto 0;	
 }
