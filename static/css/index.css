@@ -13,9 +13,12 @@
 .f-fr{
 	float: right;
 }
-/*皮肤*/
-.fontsize_18{
+.f-fs_18{
 	font-size: 18px;
+}
+/*皮肤*/
+.s-fc_gray{
+	color: #e5e5e5;
 }
 .width_1140{
 	width: 1140px;
@@ -69,18 +72,15 @@
 }
 .m-bar{
 	height: 100%;
-	position: absolute;
-	top:0;
+	position: relative;
 	z-index: -1;
 }
 .m-ltbar{
 	width: 24%;
-	left: 0;
 	background-color: #f8b551;
 }
 .m-rtbar{
 	width: 63%;
-	right: 0;
 	background-color: #00829c;
 }
 .u-tle {
@@ -100,8 +100,18 @@
 	border-color: transparent #00829c #00829c transparent;
 }
 .g-head-2 .m-container{
-	margin: 0 auto;
+	left: 0;
+	right: 0;
 	height: 100%;
+	position: absolute;
+	margin: auto;
+	top: 0;
+}
+.g-head-2 .m-logo{
+	overflow: hidden;
 	position: relative;
+	text-align: center;
+	z-index:10;
+	bottom: 57px;
 }
 
