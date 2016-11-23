@@ -337,46 +337,46 @@ p{
 	background: url(../imgs/about.png) center top no-repeat;
 	background-size: cover;
 }
-.m-case{
+.m-hot{
 	background-color: #f4f4f4;
 	height: 1155px;
 }
-.m-case-box{
+.m-hot-box{
 	margin: 0 auto;
 	overflow: hidden;
 }
-.m-case-box .u-title{
+.m-hot-box .u-title{
 	margin-top: 46px;
 	text-align: center;
 	line-height: 50px;
 	color: #00829c;
 }
-.m-case-box .m-list li{
+.m-hot-box .m-list li{
 	float: left;
 	width: 30%;
 	box-sizing: border-box;
 	margin: 0px 19px 30px;
 }
-.m-case-box .m-list a{
+.m-hot-box .m-list a{
 	display: block;
 	height: 390px;
 	text-align: center;
 	overflow: hidden;
 }
-.m-case-box .m-list a:hover{
+.m-hot-box .m-list a:hover{
 	background-color: #ddd;
 }
-.m-case-box .m-list h1{
+.m-hot-box .m-list h1{
 	font-weight: lighter;
 	color: #3e9fb3;
 	font-size: 22px;
 	margin-bottom: 20px;
 }
-.m-case-box .m-list .u-cxt{
+.m-hot-box .m-list .u-cxt{
 	margin-top: 20px;
 	padding: 0 25px;
 }
-.m-case-box .u-btn{
+.m-hot-box .u-btn{
 	text-align: center;
 	color: #fff;
 	font-size: 30px;
@@ -387,6 +387,6 @@ p{
 	margin: 0 auto;
 	background-color: #00829c;
 }
-.m-case .u-btm{
+.m-hot .u-btm{
 	
 }
