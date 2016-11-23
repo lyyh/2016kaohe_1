@@ -228,10 +228,8 @@ p{
 	margin: 10px 0;
 }
 .g-body .m-nav .m-nav-cxt p{
-	// word-break:break-all;
 	line-height: 27px;
 	height: 160px;
-	// overflow: hidden;
 }
 .g-body .m-nav .m-btm{
 	position: absolute;
@@ -247,6 +245,7 @@ p{
 	margin-left: 20px;
 }
 .g-body .m-about{
+	min-width: 1140px;
 	margin-top: 70px;
 	height: 560px;
 }
@@ -285,8 +284,41 @@ p{
 .m-sidec-1 .m-container p{
 	color: #fff;
 	line-height: 20px;
+	max-height: 190px;
 }
 .m-sidec-1 .m-container a{
+	margin-top: 20px;
 	display: inline-block;
 	float: left;
+	border: 1px solid #fff;
+	line-height: 30px;
+	text-align: center;
+	width: 100px;
+}
+.m-sidec-2 .m-container{
+	position: relative;
+	width: 570px;
+	height: 100%;
+}
+.m-sidec-2 h1{
+	position: absolute;
+	bottom: 20px;
+	left: 50px;
+}
+.m-sidec-2 .m-tip{
+	position: absolute;
+	height: 200px;
+	width: 450px;
+	background-color: #ffbb41;
+	bottom: 80px;
+	left: 100px;
+	border-radius: 10px;
+}
+.m-tip .u-cxt{
+	color: #fff;
+	line-height: 25px;
+	margin: 20px auto 0;
+	width: 400px;
+	height: 155px;
+	overflow: hidden;
 }
