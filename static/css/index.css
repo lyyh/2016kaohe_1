@@ -345,7 +345,7 @@ p{
 	margin: 0 auto;
 	overflow: hidden;
 }
-.m-hot-box .u-title{
+.u-title{
 	margin-top: 46px;
 	text-align: center;
 	line-height: 50px;
@@ -376,7 +376,7 @@ p{
 	margin-top: 20px;
 	padding: 0 25px;
 }
-.m-hot-box .u-btn{
+.u-btn{
 	text-align: center;
 	color: #fff;
 	font-size: 30px;
@@ -387,6 +387,42 @@ p{
 	margin: 0 auto;
 	background-color: #00829c;
 }
-.m-hot .u-btm{
-	
+.m-cases{
+	position: relative;
+	min-width: 1140px;
+	height: 590px;
+	background: url(../imgs/case.png) no-repeat center top;
+	background-size: cover;
+}
+.m-cases .m-container{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 1010px;
+	height: 220px;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 20px;
+}
+.m-cases .m-container{
+	overflow: hidden;
+	padding: 60px 40px;
+	height: 100px;
+}
+.m-cases .m-container .u-title{
+	color: #00829c;
+	text-align: left;
+	margin-top: 0;
+}
+.m-cases .u-cxt{
+	line-height: 30px;
+	height: 55px;
+}
+.u-case-btn{
+	left: 0;
+	right: 0;
+	position: absolute;
+	bottom: 50px;
 }
