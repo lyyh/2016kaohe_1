@@ -204,6 +204,7 @@
 }
 
 .g-body .m-nav .m-nav-img{
+	box-shadow: 0 0 1px 1px #e5e5e5;
 	border: 1px solid #e5e5e5;
 	display: inline-block;
 	padding: 20px;
