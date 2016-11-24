@@ -14,13 +14,13 @@
 	float: right;
 }
 .fontsize18{
-	font-size: 18px;
+	font-size: 18px !important;
 }
 .fontsize16{
-	font-size: 16px;
+	font-size: 16px !important;
 }
 .fontsize25{
-	font-size: 25px;
+	font-size: 25px !important;
 }
 p{
 	word-break:break-all;
@@ -249,26 +249,26 @@ p{
 	margin-top: 70px;
 	height: 560px;
 }
-.m-about .m-side{
+.m-side{
 	display: inline-block;
 	height: 100%;
 	width: 50%;
 	box-sizing: border-box;
 }
-.m-about .m-side-lt{
+.m-side-lt{
 	float: left;
 }
-.m-about .m-side-rt{
+.m-side-rt{
 	float: right;
 }
 .m-sidec{
 	box-sizing: border-box;
 }
-.m-about .m-sidec-1{
+.m-sidec-1{
 	height: 60%;
 	background-color: #00829c;
 }
-.m-about .m-sidec-2{
+.m-sidec-2{
 	height: 40%;
 	background-color: #fff;
 }
@@ -425,4 +425,82 @@ p{
 	right: 0;
 	position: absolute;
 	bottom: 50px;
+}
+.g-body .m-sch{
+	margin: 0 auto;
+	overflow: hidden;
+	height: 490px;
+}
+.m-sch .u-title{
+	margin-top: 20px;
+	font-size: 25px;
+}
+.m-sch .m-side{
+	width: 49.5%;
+}
+.m-sch .u-img img{
+	width: 100%;
+}
+.m-sch .m-side-lt .u-title{
+	text-align: left;
+	margin: 15px 0 10px;
+	line-height: 20px;
+}
+.m-sch .m-side-lt .u-cxt{
+	height: 60px;
+	overflow: hidden;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.m-sch .m-side-lt .u-btn{
+	margin:0;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+}
+.m-side-rt .m-list{
+	height: 100%;
+}
+.m-side-rt .m-list li{
+	height: 30%;
+	width: 100%;
+	background-color: #ddd;
+}
+.m-side-rt .m-list li+li{
+	margin-top: 10px;
+}
+.m-side-rt .m-list a{
+	display: block;
+	height: 100%;
+}
+.m-side-rt .m-list img{
+	height: 100%;
+}
+.m-side-rt .m-list .m-cxt{
+	height: 127px;
+	padding: 10px 15px;
+}
+.m-side-rt .m-list .u-title{
+	padding-left: 10px;
+	text-align: left;
+	margin: 0;
+}
+.m-side-rt .m-list .u-cxt{
+	padding-left: 10px;
+	line-height: 18px;
+	overflow: hidden;
+	height: 72px;
+}
+.u-btm-logo{
+	height: 50px;
+	width: 50px;
+}
+.g-body .m-head-2 .m-ltbar{
+	width: 22%;
+}
+.g-body .m-head-2 .m-rtbar{
+	width: 68%;
+}
+.g-body .m-head-2 .m-logo-box{
+	bottom: 0;
 }
