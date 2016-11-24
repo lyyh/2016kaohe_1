@@ -26,6 +26,9 @@ p{
 	word-break:break-all;
 	overflow: hidden;
 }
+.m-list li{
+	float: left;
+}
 /*皮肤*/
 .width1140{
 	width: 1140px;
@@ -429,7 +432,6 @@ p{
 .g-body .m-sch{
 	margin: 0 auto;
 	overflow: hidden;
-	height: 490px;
 }
 .m-sch .u-title{
 	margin-top: 20px;
@@ -471,7 +473,6 @@ p{
 }
 .m-side-rt .m-list a{
 	display: block;
-	height: 100%;
 }
 .m-side-rt .m-list img{
 	height: 100%;
@@ -491,9 +492,17 @@ p{
 	overflow: hidden;
 	height: 72px;
 }
+.m-side-rt .m-list .u-img{
+	height: 147px;
+	width: 100px;
+	display: inline-block;
+}
 .u-btm-logo{
 	height: 50px;
 	width: 50px;
+}
+.g-body .m-head-2{
+	margin-top: 116px;
 }
 .g-body .m-head-2 .m-ltbar{
 	width: 22%;
@@ -502,5 +511,80 @@ p{
 	width: 68%;
 }
 .g-body .m-head-2 .m-logo-box{
+	bottom: -3px;
+}
+.g-foot{
+	min-width: 1140px;
+	background-color: #020d0f;
+	position: relative;
+}
+.g-foot .m-container{
+	padding-bottom: 90px;
+	height: 245px;
+	width: 1140px;
+	margin: 0 auto;
+}
+.g-foot .m-cprt{
+	width: 100%;
+	color: #fff;
+	height: 90px;
+	line-height: 90px;
 	bottom: 0;
+	position: absolute;
+	border-top: 1px solid #00829c;
+	text-align: center;
+}
+.g-foot .m-top,.g-foot .m-btm{
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.g-foot .m-top{
+	height: 70%;
+}
+.g-foot .m-btm{
+	height: 30%;
+}
+.g-foot .m-area{
+	line-height: 20px;
+	
+	box-sizing: border-box;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.g-foot .m-area .m-list{
+	position: relative;
+	margin-top: 35px;
+}
+.m-area .m-list li{
+	float: none;
+}
+.m-area a{
+	color: #c1c1c1;
+}
+.g-foot .border_lt{
+	padding-left: 20px;
+	border-left: 1px solid #f8b551;
+}
+.g-foot .m-area-4 .border_lt{
+	padding-left: 40px;
+}
+.g-foot .m-area-4 .m-icon{
+	display: inline-block;
+	position: absolute;
+	width: 20px;
+	top: 0;
+	left: 10px;
+	text-align: center;
+}
+.g-foot .m-btm{
+	overflow: hidden;
+	padding-top: 30px;
+}
+.g-foot .m-btm .m-list{
+	margin: 0 auto;
+	width: 280px;
+}
+.m-btm li{
+	margin-left: 20px;
 }
