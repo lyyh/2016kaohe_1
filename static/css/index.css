@@ -14,6 +14,9 @@
 .f_r{
 	float: right;
 }
+.hover_nav{
+	border-color: transparent #f8b551 #f8b551 transparent !important;
+}
 .fontsize18{
 	font-size: 18px !important;
 }
@@ -543,6 +546,11 @@ p{
 }
 .g-body .m-head-2 .m-logo-box{
 	bottom: -3px;
+}
+.g-body .m-logo-box .m-img{
+	width: 66px;
+	height: 74px;
+	margin: 0 auto;
 }
 .g-foot{
 	min-width: 1140px;

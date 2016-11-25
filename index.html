@@ -50,7 +50,9 @@
 			</div>
 			<div class='m-logo'>
 				<a class='m-logo-box'>
-					<img src="static/imgs/logo.png">
+					<div class='m-img'>
+						<img src="static/imgs/logo.png">
+					</div>
 					<p class='fontsize18'>HAI SEN 海森</p>
 				</a>
 			</div>
@@ -275,14 +277,14 @@
     			</ul>
     		</div>
     	</div>
-    	<div class="m-head-2">
+    	<div class="m-head-2 m-foot">
 			<div class="m-bar m-ltbar f_l">
 				<div class="u-tle u-tle-1"></div>
 			</div>
 			<div class="m-bar m-rtbar f_r">
 				<div class="u-tle u-tle-2"></div>
 				<ul class='m-list clearfix hover_rtbar fontsize16'>
-						<li class='u-first'><a>About Us</a></li>
+						<li class='u-first' id='u_first'><a>About Us</a></li>
 						<li><a href="">About Us</a></li>
 						<li><a href="">About Us</a></li>
 						<li><a href="">About Us</a></li>
@@ -356,5 +358,16 @@
     	</div>
     	<div class="m-cprt">Copyright Copyright Copyright Copyright Copyright Copyright</div>
     </div>
+    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    	(function(){
+    		$('.g-head .u-first,.m-foot .u-first').on('mouseover',function(){
+    			$(this).parents('.m-bar').find('.u-tle-2').addClass('hover_nav');
+    		})
+    		$('.g-head .u-first,.m-foot .u-first').on('mouseleave',function(){
+    			$(this).parents('.m-bar').find('.u-tle-2').removeClass('hover_nav');
+    		})
+    	})();
+    </script>
 </body>
 </html>
