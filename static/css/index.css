@@ -29,6 +29,9 @@
 p{
 	word-break:break-all;
 	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
 }
 .m-list li{
 	float: left;
@@ -211,6 +214,7 @@ p{
 	width: 303px;
 	line-height: 23px;
 	color: #fff;
+	-webkit-line-clamp: 5;
 }
 .g-body{
 	margin: 100px auto 0;	
@@ -251,6 +255,7 @@ p{
 .g-body .m-nav .m-nav-cxt p{
 	line-height: 27px;
 	height: 160px;
+	-webkit-line-clamp: 6;
 }
 .g-body .m-nav .m-btm{
 	position: absolute;
@@ -358,6 +363,9 @@ p{
 	width: 100%;
 	height: 100%;
 	display: block;
+}
+.m-about .m-container p{
+	-webkit-line-clamp: 6;
 }
 .m-hot{
 	background-color: #f4f4f4;
